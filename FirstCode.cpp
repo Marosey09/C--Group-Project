@@ -6,4 +6,6 @@ int main()
 {
  //give ideas in dsicord before working on this   
 
+cout << "Hello World" << endl;
+
 }
