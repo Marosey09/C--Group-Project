@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/bubba/OneDrive/Documents/GitHub/C---Group-Project",
-      "program": "c:/Users/bubba/OneDrive/Documents/GitHub/C---Group-Project/build/Debug/outDebug",
+      "cwd": "c:/Users/bubba/OneDrive/Documents/GitHub_Repo/C--Group-Project",
+      "program": "c:/Users/bubba/OneDrive/Documents/GitHub_Repo/C--Group-Project/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

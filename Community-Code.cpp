@@ -7,7 +7,18 @@ int main()
  //give ideas in dsicord before working on this   
 
 cout << "Hello World" << endl;
-//This is Matthew's branch, please create own branch
 
+string name;
+
+cout << "Please neter name" << endl;
+
+cin >> name;
+
+if (name == "Joe")
+{
+    cout << "I did it JOOOOOOOOOOOEEEEEEEEEEE" << endl;
+}
+
+return 0;
 
 }
