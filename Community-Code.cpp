@@ -10,7 +10,7 @@ cout << "Hello World" << endl;
 
 string name;
 
-cout << "Please neter name" << endl;
+cout << "Please enter name" << endl;
 
 cin >> name;
 
