@@ -12,15 +12,40 @@ string name;
 
 string pin;
 
-string deposit;
+string action;
 
-string withdraw;
 
-cout << "Please enter name" << endl;
+cout << "Please enter name..." << endl;
 
 cin >> name;
 
+if (name == "Joe") 
+{
+   cout << "Please eneter Pin number" << endl;
 
+   if (pin == "6969")
+   {
+    cout << "Welcome Joseph, your current balance" << endl;
+    cout << "$0.00" << endl;
+    cout << "Would you like to deposit or withdraw money?" << endl;
+
+    cin >> action;
+
+    if (action == "deposit");
+    {
+        cout << "How much?" << endl;
+        cin >> action;
+        
+
+    }
+
+   }
+
+   else
+   {
+    cout << "WRONG GOODBYE" << endl;
+   }
+}
 
 
 
