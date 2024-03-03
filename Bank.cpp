@@ -8,20 +8,21 @@ int main()
 
 cout << "Hello World" << endl;
 
+int Addition (int a, int b);
+int Subtraction (int a, int b);
+
+
 string name;
-
 string pin;
-
 string action;
 
-
 cout << "Please enter name..." << endl;
-
 cin >> name;
 
 if (name == "Joe") 
 {
    cout << "Please eneter Pin number" << endl;
+   cin >> pin;
 
    if (pin == "6969")
    {
@@ -35,10 +36,17 @@ if (name == "Joe")
     {
         cout << "How much?" << endl;
         cin >> action;
-        
-
+        cout <<"Your newblance is $" << action << endl;  
+        cout << "Goodbye" << endl;
+        return 0;        
     }
 
+    else if (action == "withdraw");
+    {
+        cout << "How much would you like to take out?" << endl;
+        cin >> action;
+        cout << 
+    }
    }
 
    else
@@ -47,8 +55,5 @@ if (name == "Joe")
    }
 }
 
-
-
 return 0;
-
 }
